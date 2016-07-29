@@ -9,10 +9,10 @@ public class Okt {
 		double a;
 		double b;
 
-		a = readIntFromConsole("Введите длительность ролика, секунд ");
-		b = readIntFromConsole("Введите период размещения, дней ");
+		a = readIntFromConsole("Р’РІРµРґРёС‚Рµ РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ СЂРѕР»РёРєР°, СЃРµРє: ");
+		b = readIntFromConsole("Р’РІРµРґРёС‚Рµ РїРµСЂРёРѕРґ СЂР°Р·РјРµС‰РµРЅРёСЏ, РґРЅРµР№: ");
 		@SuppressWarnings("unused")
-		String c = readIntFromConsole1("Введите пакет размещения, наименование ");
+		String c = readIntFromConsole1("Р’РІРµРґРёС‚Рµ РїР°РєРµС‚ СЂР°Р·РјРµС‰РµРЅРёСЏ: ");
 
 		numNum(a,b);
 
@@ -41,7 +41,7 @@ public class Okt {
 	private static double numNum (double a,double b) {
 		double d;
 		d = a*b;
-		System.out.println("Результат вычисления = " + d);
+		System.out.println("РЎС‚РѕРёРјРѕСЃС‚СЊ СЂР°Р·РјРµС‰РµРЅРёСЏ, РёС‚РѕРіРѕ: " + d);
 		return d;
 
 	}
