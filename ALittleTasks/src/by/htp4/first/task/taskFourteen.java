@@ -10,7 +10,7 @@ public class taskFourteen {
 		int n;
 		int x;
 
-		x = met("введите >>");
+		x = met("РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ >>");
 		n = met2(x);
 
 	}
@@ -33,28 +33,28 @@ public class taskFourteen {
 		System.out.println(n);
 		switch (n) {
 		case 1:
-			System.out.println("Понедельник");
+			System.out.println("РџРѕРЅРµРґРµР»СЊРЅРёРє");
 			break;
 		case 2:
-			System.out.println("Вторник");
+			System.out.println("Р’С‚РѕСЂРЅРёРє");
 			break;
 		case 3:
-			System.out.println("Среда");
+			System.out.println("РЎСЂРµРґР°");
 			break;
 		case 4:
-			System.out.println("Четверг");
+			System.out.println("Р§РµС‚РІРµСЂРі");
 			break;
 		case 5:
-			System.out.println("Пятница");
+			System.out.println("РџСЏС‚РЅРёС†Р°");
 			break;
 		case 6:
-			System.out.println("Суббота");
+			System.out.println("РЎСѓР±Р±РѕС‚Р°");
 			break;
 		case 7:
-			System.out.println("Воскресенье");
+			System.out.println("Р’РѕСЃРєСЂРµСЃРµРЅСЊРµ");
 			break;
 		default:
-			System.out.println("Дня с таким номером не существует");
+			System.out.println("Р Р°РјСЃС‹ РїРѕРїСѓС‚Р°Р»? РЅРµС‚ С‚Р°РєРѕРіРѕ РґРЅСЏ РЅРµРґРµР»Рё");
 		}
 		return n;
 	}
