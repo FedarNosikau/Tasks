@@ -2,7 +2,7 @@ package by.htp4.first.task;
 
 import java.util.Scanner;
 
-public class taskFourteen {
+public class TaskFourteen {
 
 	public static void main(String[] args) {
 
@@ -31,7 +31,7 @@ public class taskFourteen {
 	}
 
 	private static int met2(int n) {
-		System.out.println(n);
+		
 		switch (n) {
 		case 1:
 			System.out.println("Январь");
