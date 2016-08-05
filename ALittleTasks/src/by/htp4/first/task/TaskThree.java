@@ -1,4 +1,5 @@
 package by.htp4.first.task;
+//Найти произведение цифр заданного четырехзначного числа
 
 import java.util.Scanner;
 
@@ -6,14 +7,31 @@ public class TaskThree {
 
 	public static void main(String[] args) {
 		
-		  @SuppressWarnings("unused")
-		int n;
-		  
-		  n = scan("Введите четырехзначное число");
 		
-			  
-		  }
+			int n;
+			int s = 1;
+			int i;
 		  
+			
+			n = scan("Введите четырехзначное число >> ");
+				
+		 if(n>=1000&&n<10000){
+			
+			 for(i=1;i<=4;i++){
+	
+				s*=n%10;
+				 n= n/10;
+				 
+				  }	
+			System.out.println("Результат произведения цифр заданного числа >> " + s);	
+				  
+		  }else{
+			  
+			  System.out.println("Вы ввели не четырехзначное число, прощайте навеки..."); 
+			 
+		  }
+		 }
+		    
 		  
 		    
 
@@ -30,13 +48,10 @@ public class TaskThree {
 			  gh.nextInt();
 			  System.out.println(mess);
 			  
-		  }
+		  	}
 		 
 		 }
 		return gh.nextInt();
-			
-		
-
 	}
 
 }
